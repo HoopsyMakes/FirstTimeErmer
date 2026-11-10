@@ -1,7 +1,4 @@
 # FirstTimeErmer tool
 
 ## Status:
-NOT DONE
-## How it will work
-1. Add it to a browser source in obs 
-2. Let the browser source play sound.
+I was not limited my twitch api nor github pages. I was limited by the browser standard of not letting audio play without permission. 
