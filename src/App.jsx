@@ -4,7 +4,7 @@ import Erm from "./assets/Erm.gif"
 
 import tmi from "tmi.js"
 function App() {
-
+  const [opacity, setOpacity] = useState(1)
   const client = new tmi.Client({
     channels: ['anny']
   });
@@ -24,7 +24,7 @@ function App() {
     }
   });
 
-  return <img src={Erm} alt="" />
+  return <img src={Erm} alt="" style={{ opacity: { opacity } }} />
 
 }
 
