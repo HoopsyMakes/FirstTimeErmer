@@ -24,7 +24,7 @@ function App() {
     }
   });
 
-  return <img src={Erm} alt="" style={{ opacity: { opacity } }} />
+  return <img src={Erm} alt="Erm" style={{ opacity: { opacity } }} />
 
 }
 
