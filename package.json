@@ -1,18 +1,24 @@
 {
   "name": "firsttimeermer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "type": "commonjs",
   "dependencies": {
-    "@twurple/auth": "^8.2.0",
-    "@twurple/chat": "^8.2.0",
-    "dotenv": "^18.0.10",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "vite": "^8.3.6"
   }
 }
