@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import Erm from "./assets/Erm.gif"
 
+import tmi from "tmi.js"
 function App() {
-  const tmi = require('tmi.js');
 
   const client = new tmi.Client({
     channels: ['anny']
@@ -23,10 +24,8 @@ function App() {
     }
   });
 
-  return (
-    <>
-    </>
-  )
+  return <img src={Erm} alt="" />
+
 }
 
 export default App
