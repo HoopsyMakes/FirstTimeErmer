@@ -1,0 +1,8 @@
+.square.square-full {
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.square {
+  opacity: 0;
+}
