@@ -20,4 +20,4 @@ If you want to actually use it, DM me (hoopsy) an mp3, you don't have to trust m
 
 If you want to do the nerm way of being able to swap the mp3 manually, get a github account and send me its username, then I have to tell you how you edit it. That would take like idk 15 min in vc, 30 mins in text.
 
-Sorgy it's not hot swappable. I'd make an entire browser source to do this but that costs too much time for me without getting paid xdx.
+Sorgy it's not hot swappable. I'd make an entire OBS source to do this but that costs too much time for me without getting paid xdx.
